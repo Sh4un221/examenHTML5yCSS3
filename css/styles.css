@@ -93,7 +93,7 @@ font-family: "Poppins";
 }
 .content button{
     margin-top: 2em;
-    background: green;
+    background: #ff328b;
     width: 15%;
     height: auto;
     padding:.5em ;
@@ -165,7 +165,7 @@ font-family: "Poppins";
 .page .contentp button {
     font-size: 15px;
     padding: 5px;
-    background: green;
+    background:#ff328b;
     border: none;
 }
 .cantidad button a {
@@ -235,4 +235,13 @@ font-family: "Poppins";
     justify-content: space-between;
     width: 100%;
     height: auto;
+
+}
+.balance button{
+    background: var(--color-secundary);
+    border: none;
+    padding: .5rem;
+}
+.balance button a {
+    text-decoration: none;
 }
